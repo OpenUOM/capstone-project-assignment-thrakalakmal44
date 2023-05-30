@@ -25,6 +25,7 @@ app.get("/dbinitialize", async function (req, res) {
 
   res.setHeader("Content-Type", "application/json");
   res.end(JSON.stringify(data));
+  console.log("DB is initialized");
 });
 // ============== Teacher Related endpoints ==============
 
