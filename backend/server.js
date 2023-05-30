@@ -34,7 +34,7 @@ app.get("/listTeachers", async function (req, res) {
 
   res.setHeader("Content-Type", "application/json");
   res.end(JSON.stringify(data));
-});
+}); 
 
 app.post("/getTeacherInfo", async function (req, res) {
   let reqBody = req.body;
